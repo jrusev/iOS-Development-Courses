@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>89F07B6A-EA3C-4B76-AE9F-E669FE141B87</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iTodoManager</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>732AB71F7D7554372E0AC0DB1056B0DD92AD6909</key>
+		<string>github.com:jrusev/Objective-C.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>02.Methods-in-Objective-C/iTodoManager/iTodoManager.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>732AB71F7D7554372E0AC0DB1056B0DD92AD6909</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:jrusev/Objective-C.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>732AB71F7D7554372E0AC0DB1056B0DD92AD6909</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>732AB71F7D7554372E0AC0DB1056B0DD92AD6909</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Objective-C</string>
+		</dict>
+	</array>
+</dict>
+</plist>
