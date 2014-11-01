@@ -54,9 +54,20 @@
 - (IBAction)nextDogButtonPressed:(id)sender {
     _currentDogIndex = (_currentDogIndex + 1) >= self.dogs.count ? 0 : _currentDogIndex + 1;
     MBFDog *newDog = self.dogs[_currentDogIndex];
-    self.myImageView.image = newDog.image;
-    self.nameLabel.text = newDog.name;
-    self.breedLabel.text = newDog.breed;
+    
+//    self.myImageView.image = newDog.image;
+//    self.nameLabel.text = newDog.name;
+//    self.breedLabel.text = newDog.breed;
+    
+    [UIView transitionWithView:self.view
+                      duration:0.5
+                       options:UIViewAnimationOptionTransitionCrossDissolve
+     animations:^{
+         self.myImageView.image = newDog.image;
+         self.nameLabel.text = newDog.name;
+         self.breedLabel.text = newDog.breed;
+    } completion:^(BOOL finished) {
+    }];
 }
 
 @end
