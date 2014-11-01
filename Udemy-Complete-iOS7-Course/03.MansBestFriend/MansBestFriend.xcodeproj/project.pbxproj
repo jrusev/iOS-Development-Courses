@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D387011A0454D000ABCFC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D387001A0454D000ABCFC8 /* main.m */; };
+		84D387041A0454D000ABCFC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D387031A0454D000ABCFC8 /* AppDelegate.m */; };
+		84D387071A0454D000ABCFC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D387061A0454D000ABCFC8 /* ViewController.m */; };
+		84D3870A1A0454D000ABCFC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D387081A0454D000ABCFC8 /* Main.storyboard */; };
+		84D3870C1A0454D000ABCFC8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D3870B1A0454D000ABCFC8 /* Images.xcassets */; };
+		84D3870F1A0454D000ABCFC8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D3870D1A0454D000ABCFC8 /* LaunchScreen.xib */; };
+		84D3871B1A0454D000ABCFC8 /* MansBestFriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D3871A1A0454D000ABCFC8 /* MansBestFriendTests.m */; };
+		84D387261A0454E600ABCFC8 /* MBFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D387251A0454E600ABCFC8 /* MBFDog.m */; };
+		84D387511A0456F400ABCFC8 /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84D3874C1A0456F300ABCFC8 /* Bo.jpg */; };
+		84D387521A0456F400ABCFC8 /* BorderCollie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84D3874D1A0456F300ABCFC8 /* BorderCollie.jpg */; };
+		84D387531A0456F400ABCFC8 /* ItalianGreyhound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84D3874E1A0456F300ABCFC8 /* ItalianGreyhound.jpg */; };
+		84D387541A0456F400ABCFC8 /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84D3874F1A0456F300ABCFC8 /* JRT.jpg */; };
+		84D387551A0456F400ABCFC8 /* St.Bernard.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 84D387501A0456F300ABCFC8 /* St.Bernard.JPG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84D387151A0454D000ABCFC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D386F31A0454D000ABCFC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D386FA1A0454D000ABCFC8;
+			remoteInfo = MansBestFriend;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84D386FB1A0454D000ABCFC8 /* MansBestFriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MansBestFriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D386FF1A0454D000ABCFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D387001A0454D000ABCFC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84D387021A0454D000ABCFC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84D387031A0454D000ABCFC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84D387051A0454D000ABCFC8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84D387061A0454D000ABCFC8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84D387091A0454D000ABCFC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84D3870B1A0454D000ABCFC8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84D3870E1A0454D000ABCFC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84D387141A0454D000ABCFC8 /* MansBestFriendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MansBestFriendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D387191A0454D000ABCFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D3871A1A0454D000ABCFC8 /* MansBestFriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MansBestFriendTests.m; sourceTree = "<group>"; };
+		84D387241A0454E600ABCFC8 /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFDog.h; sourceTree = "<group>"; };
+		84D387251A0454E600ABCFC8 /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFDog.m; sourceTree = "<group>"; };
+		84D3874C1A0456F300ABCFC8 /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Bo.jpg; path = "Windows-shared/001.5 Resources/dog-image-assets/Bo.jpg"; sourceTree = "<group>"; };
+		84D3874D1A0456F300ABCFC8 /* BorderCollie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BorderCollie.jpg; path = "Windows-shared/001.5 Resources/dog-image-assets/BorderCollie.jpg"; sourceTree = "<group>"; };
+		84D3874E1A0456F300ABCFC8 /* ItalianGreyhound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ItalianGreyhound.jpg; path = "Windows-shared/001.5 Resources/dog-image-assets/ItalianGreyhound.jpg"; sourceTree = "<group>"; };
+		84D3874F1A0456F300ABCFC8 /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JRT.jpg; path = "Windows-shared/001.5 Resources/dog-image-assets/JRT.jpg"; sourceTree = "<group>"; };
+		84D387501A0456F300ABCFC8 /* St.Bernard.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = St.Bernard.JPG; path = "Windows-shared/001.5 Resources/dog-image-assets/St.Bernard.JPG"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D386F81A0454D000ABCFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D387111A0454D000ABCFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84D386F21A0454D000ABCFC8 = {
+			isa = PBXGroup;
+			children = (
+				84D386FD1A0454D000ABCFC8 /* MansBestFriend */,
+				84D387171A0454D000ABCFC8 /* MansBestFriendTests */,
+				84D386FC1A0454D000ABCFC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84D386FC1A0454D000ABCFC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D386FB1A0454D000ABCFC8 /* MansBestFriend.app */,
+				84D387141A0454D000ABCFC8 /* MansBestFriendTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D386FD1A0454D000ABCFC8 /* MansBestFriend */ = {
+			isa = PBXGroup;
+			children = (
+				84D387021A0454D000ABCFC8 /* AppDelegate.h */,
+				84D387031A0454D000ABCFC8 /* AppDelegate.m */,
+				84D387051A0454D000ABCFC8 /* ViewController.h */,
+				84D387061A0454D000ABCFC8 /* ViewController.m */,
+				84D387241A0454E600ABCFC8 /* MBFDog.h */,
+				84D387251A0454E600ABCFC8 /* MBFDog.m */,
+				84D387081A0454D000ABCFC8 /* Main.storyboard */,
+				84D3870B1A0454D000ABCFC8 /* Images.xcassets */,
+				84D3870D1A0454D000ABCFC8 /* LaunchScreen.xib */,
+				84D386FE1A0454D000ABCFC8 /* Supporting Files */,
+			);
+			path = MansBestFriend;
+			sourceTree = "<group>";
+		};
+		84D386FE1A0454D000ABCFC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84D3874C1A0456F300ABCFC8 /* Bo.jpg */,
+				84D3874D1A0456F300ABCFC8 /* BorderCollie.jpg */,
+				84D3874E1A0456F300ABCFC8 /* ItalianGreyhound.jpg */,
+				84D3874F1A0456F300ABCFC8 /* JRT.jpg */,
+				84D387501A0456F300ABCFC8 /* St.Bernard.JPG */,
+				84D386FF1A0454D000ABCFC8 /* Info.plist */,
+				84D387001A0454D000ABCFC8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84D387171A0454D000ABCFC8 /* MansBestFriendTests */ = {
+			isa = PBXGroup;
+			children = (
+				84D3871A1A0454D000ABCFC8 /* MansBestFriendTests.m */,
+				84D387181A0454D000ABCFC8 /* Supporting Files */,
+			);
+			path = MansBestFriendTests;
+			sourceTree = "<group>";
+		};
+		84D387181A0454D000ABCFC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84D387191A0454D000ABCFC8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D386FA1A0454D000ABCFC8 /* MansBestFriend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D3871E1A0454D000ABCFC8 /* Build configuration list for PBXNativeTarget "MansBestFriend" */;
+			buildPhases = (
+				84D386F71A0454D000ABCFC8 /* Sources */,
+				84D386F81A0454D000ABCFC8 /* Frameworks */,
+				84D386F91A0454D000ABCFC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MansBestFriend;
+			productName = MansBestFriend;
+			productReference = 84D386FB1A0454D000ABCFC8 /* MansBestFriend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84D387131A0454D000ABCFC8 /* MansBestFriendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D387211A0454D000ABCFC8 /* Build configuration list for PBXNativeTarget "MansBestFriendTests" */;
+			buildPhases = (
+				84D387101A0454D000ABCFC8 /* Sources */,
+				84D387111A0454D000ABCFC8 /* Frameworks */,
+				84D387121A0454D000ABCFC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D387161A0454D000ABCFC8 /* PBXTargetDependency */,
+			);
+			name = MansBestFriendTests;
+			productName = MansBestFriendTests;
+			productReference = 84D387141A0454D000ABCFC8 /* MansBestFriendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D386F31A0454D000ABCFC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = JR;
+				TargetAttributes = {
+					84D386FA1A0454D000ABCFC8 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					84D387131A0454D000ABCFC8 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 84D386FA1A0454D000ABCFC8;
+					};
+				};
+			};
+			buildConfigurationList = 84D386F61A0454D000ABCFC8 /* Build configuration list for PBXProject "MansBestFriend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D386F21A0454D000ABCFC8;
+			productRefGroup = 84D386FC1A0454D000ABCFC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D386FA1A0454D000ABCFC8 /* MansBestFriend */,
+				84D387131A0454D000ABCFC8 /* MansBestFriendTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D386F91A0454D000ABCFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D387551A0456F400ABCFC8 /* St.Bernard.JPG in Resources */,
+				84D387531A0456F400ABCFC8 /* ItalianGreyhound.jpg in Resources */,
+				84D3870A1A0454D000ABCFC8 /* Main.storyboard in Resources */,
+				84D387541A0456F400ABCFC8 /* JRT.jpg in Resources */,
+				84D3870F1A0454D000ABCFC8 /* LaunchScreen.xib in Resources */,
+				84D387521A0456F400ABCFC8 /* BorderCollie.jpg in Resources */,
+				84D387511A0456F400ABCFC8 /* Bo.jpg in Resources */,
+				84D3870C1A0454D000ABCFC8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D387121A0454D000ABCFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D386F71A0454D000ABCFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D387071A0454D000ABCFC8 /* ViewController.m in Sources */,
+				84D387041A0454D000ABCFC8 /* AppDelegate.m in Sources */,
+				84D387261A0454E600ABCFC8 /* MBFDog.m in Sources */,
+				84D387011A0454D000ABCFC8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D387101A0454D000ABCFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D3871B1A0454D000ABCFC8 /* MansBestFriendTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84D387161A0454D000ABCFC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D386FA1A0454D000ABCFC8 /* MansBestFriend */;
+			targetProxy = 84D387151A0454D000ABCFC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84D387081A0454D000ABCFC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D387091A0454D000ABCFC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84D3870D1A0454D000ABCFC8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D3870E1A0454D000ABCFC8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D3871C1A0454D000ABCFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84D3871D1A0454D000ABCFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D3871F1A0454D000ABCFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MansBestFriend/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84D387201A0454D000ABCFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MansBestFriend/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84D387221A0454D000ABCFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MansBestFriendTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MansBestFriend.app/MansBestFriend";
+			};
+			name = Debug;
+		};
+		84D387231A0454D000ABCFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MansBestFriendTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MansBestFriend.app/MansBestFriend";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D386F61A0454D000ABCFC8 /* Build configuration list for PBXProject "MansBestFriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D3871C1A0454D000ABCFC8 /* Debug */,
+				84D3871D1A0454D000ABCFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D3871E1A0454D000ABCFC8 /* Build configuration list for PBXNativeTarget "MansBestFriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D3871F1A0454D000ABCFC8 /* Debug */,
+				84D387201A0454D000ABCFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84D387211A0454D000ABCFC8 /* Build configuration list for PBXNativeTarget "MansBestFriendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D387221A0454D000ABCFC8 /* Debug */,
+				84D387231A0454D000ABCFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D386F31A0454D000ABCFC8 /* Project object */;
+}
