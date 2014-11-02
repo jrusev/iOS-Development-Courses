@@ -16,6 +16,7 @@
 @property (strong, nonatomic) NSDictionary *data;
 @property (strong, nonatomic) UIImage *image;
 
+// Designated initializer.
 -(id)initWithData:(NSDictionary *)data andImage:(UIImage *)image;
 
 @end

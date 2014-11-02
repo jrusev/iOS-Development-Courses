@@ -144,9 +144,9 @@
 			children = (
 				84DFEFFF1A058BD900B537D5 /* MainTableViewController.h */,
 				84DFF0001A058BD900B537D5 /* MainTableViewController.m */,
+				84DFEFE01A058A7000B537D5 /* Main.storyboard */,
 				8470FF5B1A0636BC00C5DCEA /* Model */,
 				8470FF421A0632ED00C5DCEA /* Data */,
-				84DFEFE01A058A7000B537D5 /* Main.storyboard */,
 				84DFEFE31A058A7000B537D5 /* Images.xcassets */,
 				84DFEFE51A058A7000B537D5 /* LaunchScreen.xib */,
 				84DFEFD61A058A7000B537D5 /* Supporting Files */,

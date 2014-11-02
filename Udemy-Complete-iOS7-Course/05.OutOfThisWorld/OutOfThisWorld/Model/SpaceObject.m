@@ -11,13 +11,13 @@
 
 @implementation SpaceObject
 
--(id)init
+// Must always override super's designated initializer.
+-(instancetype)init
 {
-    self = [self initWithData:nil andImage:nil];
-    return self;
+    return [self initWithData:nil andImage:nil];
 }
 
--(id)initWithData:(NSDictionary *)data andImage:(UIImage *)image
+-(instancetype)initWithData:(NSDictionary *)data andImage:(UIImage *)image
 {
     self = [super init];
     if (self) {
