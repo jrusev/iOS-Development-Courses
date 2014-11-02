@@ -17,13 +17,20 @@
     return [self initWithData:nil andImage:nil];
 }
 
--(instancetype)initWithData:(NSDictionary *)data andImage:(UIImage *)image
+-(id)initWithData:(NSDictionary *)data andImage:(UIImage *)image
 {
     self = [super init];
     if (self) {
-        _data = data;
         _name = [data[PLANET_NAME] copy];
-        _nickName = [data[PLANET_NICKNAME] copy];
+        _nickname = [data[PLANET_NICKNAME] copy];
+        _gravitationalForce = [data[PLANET_GRAVITY] floatValue];
+        _diameter = [data[PLANET_DIAMETER] floatValue];
+        _yearLength = [data[PLANET_YEAR_LENGTH] floatValue];
+        _dayLength = [data[PLANET_DAY_LENGTH] floatValue];
+        _temperature = [data[PLANET_TEMPERATURE] floatValue];
+        _numberOfMoons = [data[PLANET_NUMBER_OF_MOONS] intValue];
+
+        _interestFact = data[PLANET_INTERESTING_FACT];
         _image = image;
     }
     return self;
